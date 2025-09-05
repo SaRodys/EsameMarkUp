@@ -1,0 +1,21 @@
+@import url(../base/variabili.css);
+
+@media (min-width: 601px) {
+
+    #nostriNumeri {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 50px;
+    }
+
+    #storia article {
+        order: 1;
+
+    }
+
+    #storia img {
+        width: 30%;
+        order: 2; 
+    }
+
+}
