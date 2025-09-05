@@ -1,0 +1,107 @@
+@import url(../base/variabili.css);
+
+html {
+    /*per far tornare in cima con il top con un'animazione*/
+    scroll-behavior: smooth; 
+}
+
+header {
+    background-image: 
+    linear-gradient(to bottom, rgba(250, 250, 224, 0.0), rgba(30, 47, 35, 1)),
+    linear-gradient(to left, rgba(250, 250, 224, 0.0), rgba(30, 47, 35, 1)),
+    url(../img/pgbackground.jpg);
+    padding-bottom: 100px;
+}
+
+#top {
+    width: 5%;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    padding:10px;
+    z-index: 99;
+    border-radius: 10px;
+    background-color: var(--secondary-color);
+    border: solid 1px var(--new-color);
+}
+
+aside {
+    margin-bottom: 50px;
+    margin-bottom: 150px;
+}
+aside h3 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+aside ul {
+    text-align: center;
+}
+
+aside ul li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+aside ul li a {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 20px;
+    font-family: var(--text);
+    color: var(--new-color);
+    text-decoration: none;
+}
+
+aside ul li a:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color)
+}
+
+.testuale {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.testuale h2, .testuale p {
+    color: var(--secondary-color);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.prodotto {
+    margin-top: 150px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.prodotto h2{
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+video {
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.info2 p, .info2 li{
+    color: var(--secondary-color);
+    font-family: var(--text);
+    font-size: 13px;
+}
+
+.info2 p {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.info2 li {
+    margin-left: 40px;
+}
+
+
+
+

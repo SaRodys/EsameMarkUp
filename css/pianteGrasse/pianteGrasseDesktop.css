@@ -1,0 +1,62 @@
+@import url(../base/variabili.css);
+@media (min-width: 1024px) {
+
+    #top {
+        width: 1.5%;
+    }
+
+   .intro {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+   }
+
+   .intro aside {
+    background-color: var(--secondary-color);
+    height: 75%;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+
+   .intro aside h3 {
+    color: var(--new-color);
+   }
+
+   .intro aside ul li {
+    display: block;
+    margin-top: 50px;
+   }
+
+   .testuale {
+    margin-left: 150px;
+    margin-right: 150px;
+   }
+
+   .infoPianta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    margin-top: 50px;
+   }
+
+
+   video {
+    border-radius: 20px;
+    margin-left: 50px;
+    border: solid 3px var(--secondary-color)
+    }
+
+   .infoPianta .info2 li, .info2 p {
+    margin-bottom: 20px;
+   }
+
+   .info2 {
+    margin-left: 100px;
+}
+
+
+
+}
