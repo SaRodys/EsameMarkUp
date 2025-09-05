@@ -1,0 +1,70 @@
+@import url(../base/variabili.css);
+@media (min-width: 1025px) {
+
+    #forms{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        margin-bottom: 200px;
+    }
+
+    #newsletter {
+        align-content: center;
+    }
+
+    #infoContatti {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 50px;
+        padding: 0;
+    }
+
+    #infoContatti div {
+        margin: 0;
+        width: 90%;
+        height: 80px;
+    }
+
+    .contatto a {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    #social {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+    }
+
+    #social img, #social h6 {
+        margin: 0;
+        padding:0 ;
+    }
+
+    #social h6 {
+        grid-column: 1/4;
+        margin-bottom: 20px;
+
+    }
+
+    #social p {
+        display: block;
+        font-size: 15px;
+    }
+
+    #social a {
+        width: auto;
+    }
+
+    .contatto h6 {
+        margin-bottom: 20px;
+    }
+
+    iframe {
+        margin: 0;
+        margin-left: 3%;
+        margin-right: 3%;
+        width: 93%;
+    }
+}
