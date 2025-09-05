@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Garden</title>
+    <meta name="author" content="Sara Rodigari">
+    <link rel="stylesheet" href="css/base/variabili.css">
+     <!--CSS PAGINA-->
+    <link rel="stylesheet" href="css/base/stileMobile.css">
+    <link rel="stylesheet" href="css/base/stileTablet.css">
+    <link rel="stylesheet" href="css/base/stileDesktop.css">
+     <!--CSS PAGINA HOME-->
+    <link rel="stylesheet" href="css/home/homeMobile.css">
+    <link rel="stylesheet" href="css/home/homeTablet.css">
+    <link rel="stylesheet" href="css/home/homeDesktop.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Bebas+Neue&family=Fleur+De+Leah&family=Great+Vibes&family=Grechen+Fuemen&family=Imperial+Script&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Numans&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Parisienne&family=Pinyon+Script&family=Poiret+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="menu">
+            <a class="logo" href="index.html"><img src="css/img/logoSpesso.png" alt="logo Home Garden"></a>
+            <a class="logo" href="index.html"><h2>home garden</h2></a>
+            <button id="BMenu"><img src="css/img/icons8-menu-50.png" alt="icona menù"></button>
+            <nav id="navigazione">
+                <ul>
+                    <li><a href="index.html" class="selezionato">Home</a></li>
+                    <li><a href="piante.html">Piante grandi</a></li>
+                    <li><a href="pianteGrasse.html">Piante grasse</a></li>
+                    <li><a href="about.html">Chi siamo</a></li>
+                    <li><a href="contatti.html">Contatti</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="titolo">
+            <div class="sx">
+                <h1>Rendi pi&#250; verde la tua casa!</h1>
+                <h3>Proposte grandi e piccole per arredare i tuoi spazi</h3>
+            </div>
+        </div>
+    </header>
+    <script src="script/scriptMenu.js"></script>
+
+    <main>
+        <div class="intro">
+            <article class="DescrizionePagina reveal">
+                <h2>Aria pulita e stile unico&excl;</h2>
+                <p>Portare il verde in casa non &#233; mai stato cos&igrave; 
+                    semplice&excl;</p>
+                <p>Le piante da interno non solo aggiungono un tocco di freschezza 
+                    e colore a qualsiasi ambiente, ma contribuiscono anche a 
+                    migliorare la qualit&#225; dell&apos;aria che respiriamo. Che 
+                    il tuo stile sia moderno, classico o minimalista, le piante si 
+                    integrano perfettamente in ogni arredamento, donando 
+                    un&#8217;atmosfera accogliente e rilassante.</p>
+                <p>Scopri i nostri consigli per capire quali piante acquistare e 
+                    trasforma il tuo ambiente domestico in un piccolo angolo di 
+                    natura&excl;</p>
+            </article>
+        </div>
+
+        <section class="catalogo reveal">
+            <h2>I pi&#250; popolari</h2>
+            <div id="articoli">
+                <div class="prodotti">
+                    <img src="css/img/ProdottoPothos.jpg" alt="Pianta di pothos">
+                    <div>
+                        <h4>Pothos</h4>
+                        <a href="piante.html#pothos">Scopri di pi&ugrave;</a>
+                    </div>
+                </div>
+                <div class="prodotti">
+                    <img src="css/img/ProdottoMonstera.png" alt="Pianta di monstera">
+                    <div>
+                        <h4>Monstera</h4>
+                        <a href="piante.html#monstera">Scopri di pi&ugrave;</a>
+                    </div>
+                </div>
+                <div class="prodotti">
+                    <img src="css/img/ProdottoCactus.png" alt="Pianta di cactus">
+                    <div>
+                        <h4>Cactus</h4>
+                        <a href="pianteGrasse.html#cactus">Scopri di pi&ugrave;</a>
+                    </div>
+                </div>
+                <div class="prodotti">
+                    <img src="css/img/ProdottoBanano.png" alt="Pianta di banano">
+                    <div>
+                        <h4>Banano</h4>
+                        <a href="piante.html#banano">Scopri di pi&ugrave;</a>
+                    </div>
+                </div>
+            </div>
+        </section>  
+    </main>
+
+    <footer class="reveal" id="formNewsletter">
+        <h2>Entra a far parte del nostro giardino!</h2>
+        <p>Iscriviti alla nostra newsletter per lasciare un commento, 
+            richiedere assistenza o proporre una nuova pianta da 
+            inserire nel nostro blog</p>
+        <form action="submit.php" method="post">
+            <input type="text" id="nome" name="newsletter" value="Nome e cognome" required>
+            <input type="email" id="email" name="newsletter" value="La tua email" required>
+            <input type="tel" id="phone" name="newsletter" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" value="Il tuo numero di telefono (diviso da dei trattini)">            
+            <textarea id="messaggio" name="newsletter">Scrivi il tuo messaggio oppure la prossima pianta che vorresti vedere nel nostro store</textarea>
+            <div>
+                <button type="submit" class="formButton">Invia</button>
+                <button type="reset" class="formButton">Cancella</button>
+            </div>
+        </form>
+
+        <div class="container">
+            <div>
+                <a href="https://www.google.com/maps/place/Campus+Luigi+Einaudi/@45.0734963,7.6994089,591m/data=!3m2!1e3!4b1!4m6!3m5!1s0x47887281e1311a15:0xd605be48387bc2bd!8m2!3d45.0734963!4d7.6994089!16s%2Fg%2F11fzd0j35b?entry=ttu&g_ep=EgoyMDI1MDQwMS4wIKXMDSoASAFQAw%3D%3D">
+                <h6>Sede</h6>
+                <p>Lungo Dora Siena, 100 - Torino</p>
+                </a>
+            </div>
+            <div>
+                <a href="tel:+393456789012">
+                    <h6>Telefono</h6>
+                    <p>345 678 9012</p>
+                </a>
+            </div>
+            <div>
+                <a href="mailto:info@homegarden.it">
+                    <h6>Email</h6>
+                    <p>info@homegarden.it</p>
+                </a>
+            </div>  
+            <div>
+                <h6>Social</h6>
+                <a href="#">
+                    <img id="instagram" src="css/img/instagram.png" alt="Icona instagram">
+                </a>
+                <a href="#">
+                    <img id="facebook" src="css/img/facebook.png" alt="Icona Facebook">
+                </a>
+                <a href="#">
+                    <img id="tiktok" src="css/img/tiktok.png" alt="Icona Tiktok">
+                </a>
+            </div>
+          </div>
+        <p id="copy">© 2025 - 2025 www.homegarden.com - All Rights Reserved</p>
+    </footer>
+    <script src="script/scriptFooter.js"></script>    
+    <script src="script/scriptScroll.js"></script>
+</body>
+</html>

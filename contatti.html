@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Garden - Contatti</title>
+    <meta name="author" content="Sara Rodigari">
+    <link rel="stylesheet" href="css/base/variabili.css">
+     <!--CSS PAGINA-->
+    <link rel="stylesheet" href="css/base/stileMobile.css">
+    <link rel="stylesheet" href="css/base/stileTablet.css">
+    <link rel="stylesheet" href="css/base/stileDesktop.css">
+    <!--CSS PAGINA CONTATTI-->
+    <link rel="stylesheet" href="css/contatti/contattiMobile.css">
+    <link rel="stylesheet" href="css/contatti/contattiTablet.css">
+    <link rel="stylesheet" href="css/contatti/contattiDesktop.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Bebas+Neue&family=Fleur+De+Leah&family=Great+Vibes&family=Grechen+Fuemen&family=Imperial+Script&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Numans&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Parisienne&family=Pinyon+Script&family=Poiret+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="menu">
+            <a class="logo" href="index.html"><img src="css/img/logoSpesso.png" alt="logo Home Garden"></a>
+            <a class="logo" href="index.html"><h2>home garden</h2></a>
+            <button id="BMenu"><img src="css/img/icons8-menu-50.png" alt="icona menù"></button>
+            <nav id="navigazione">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="piante.html">Piante grandi</a></li>
+                    <li><a href="pianteGrasse.html">Piante grasse</a></li>
+                    <li><a href="about.html">Chi siamo</a></li>
+                    <li><a href="contatti.html" class="selezionato">Contatti</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="titolo">
+            <div class="sx">
+                <h1>I nostri contatti</h1>
+            </div>
+        </div>
+    </header>
+    <script src="./script/scriptMenu.js"></script>
+
+        
+    <main>
+        <div id="forms">
+            <div id="contatti" class="reveal">
+                <p>Se vuoi lasciarci un commento o richiedere un&apos;informazione completa il form qui sotto</p>
+                <form action="submit.php" method="post">
+                    <input type="text" name="messaggio" value="Nome e cognome" required>
+                    <input type="email" name="messaggio" value="La tua email" required>
+                    <textarea name="messaggio">Scrivi il tuo messaggio</textarea>
+                    <button type="submit" class="formButton">Invia</button>
+                </form>
+            </div>
+
+            <div class="reveal" id="newsletter">
+                <p>Se invece vuoi iscriverti alla nostra newsletter e non perderti 
+                    le ultime novit&aacute; nel gardino di Home Garden clicca il 
+                    bottone qui sotto</p>
+                <a href="index.html#formNewsletter">Newsletter</a>
+                </div>
+        </div>
+
+        <section class="reveal" id="infoContatti">
+            <div class="contatto">
+                <a href="tel:+393456789012">
+                    <h6>Telefono</h6>
+                    <p>345 678 9012</p>
+                </a>
+            </div>
+            <div class="contatto">
+                <a href="mailto:info@homegarden.it">
+                    <h6>Email</h6>
+                    <p>info@homegarden.it</p>
+                </a>
+            </div>  
+            <div id="social" class="contatto">
+                <h6>Social</h6>
+                <a href="#"><img id="instagram2" src="css/img/instagram.png" alt="icona Instagram"><p>Instagram</p></a>
+                <a href="#"><img id="facebook2" src="css/img/facebook.png" alt="icona Facebook"><p>Facebook</p></a>
+                <a href="#"><img id="tiktok2" src="css/img/tiktok.png" alt="icona Tiktok"><p>Tiktok</p></a>
+            </div>
+        </section>
+
+        <iframe class="reveal" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2575.468290411575!2d7.696833975944384!3d45.073496271070184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47887281e1311a15%3A0xd605be48387bc2bd!2sCampus%20Luigi%20Einaudi!5e1!3m2!1sit!2sit!4v1744122266348!5m2!1sit!2sit" allowfullscreen></iframe>    
+    </main>
+
+    <footer>
+        <div class="container">
+            <div>
+                <a href="https://www.google.com/maps/place/Campus+Luigi+Einaudi/@45.0734963,7.6994089,591m/data=!3m2!1e3!4b1!4m6!3m5!1s0x47887281e1311a15:0xd605be48387bc2bd!8m2!3d45.0734963!4d7.6994089!16s%2Fg%2F11fzd0j35b?entry=ttu&g_ep=EgoyMDI1MDQwMS4wIKXMDSoASAFQAw%3D%3D">
+                <h6>Sede</h6>
+                <p>Lungo Dora Siena, 100 - Torino</p>
+                </a>
+            </div>
+            <div>
+                <a href="tel:+393456789012">
+                    <h6>Telefono</h6>
+                    <p>345 678 9012</p>
+                </a>
+            </div>
+            <div>
+                <a href="mailto:info@homegarden.it">
+                    <h6>Email</h6>
+                    <p>info@homegarden.it</p>
+                </a>
+            </div>  
+            <div>
+                <h6>Social</h6>
+                <a href="#">
+                    <img id="instagram" src="css/img/instagram.png" alt="Icona instagram">
+                </a>
+                <a href="#">
+                    <img id="facebook" src="css/img/facebook.png" alt="Icona Facebook">
+                </a>
+                <a href="#">
+                    <img id="tiktok" src="css/img/tiktok.png" alt="Icona Tiktok">
+                </a>
+            </div>
+          </div>
+        <p id="copy">© 2025 - 2025 www.homegarden.com - All Rights Reserved</p>
+    </footer>
+    <script src="./script/scriptScroll.js"></script>
+    <script src="./script/scriptFooter.js"></script>
+    <script src="./script/scriptContatti.js"></script>
+</body>
+</html>

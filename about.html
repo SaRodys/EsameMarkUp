@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Garden - Chi siamo</title>
+    <meta name="author" content="Sara Rodigari">
+    <link rel="stylesheet" href="css/base/variabili.css">
+     <!--CSS PAGINA-->
+    <link rel="stylesheet" href="css/base/stileMobile.css">
+    <link rel="stylesheet" href="css/base/stileTablet.css">
+    <link rel="stylesheet" href="css/base/stileDesktop.css">
+    <!--CSS PAGINA CHI SIAMO-->
+    <link rel="stylesheet" href="css/about/aboutMobile.css">
+    <link rel="stylesheet" href="css/about/aboutTablet.css">
+    <link rel="stylesheet" href="css/about/aboutDesktop.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Bebas+Neue&family=Fleur+De+Leah&family=Great+Vibes&family=Grechen+Fuemen&family=Imperial+Script&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Numans&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Parisienne&family=Pinyon+Script&family=Poiret+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="menu">
+            <a class="logo" href="index.html"><img src="css/img/logoSpesso.png" alt="logo Home Garden"></a>
+            <a class="logo" href="index.html"><h2>home garden</h2></a>
+            <button id="BMenu"><img src="css/img/icons8-menu-50.png" alt="icona menù"></button>
+            <nav id="navigazione">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="piante.html">Piante grandi</a></li>
+                    <li><a href="pianteGrasse.html">Piante grasse</a></li>
+                    <li><a href="about.html" class="selezionato">Chi siamo</a></li>
+                    <li><a href="contatti.html">Contatti</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="titolo">
+            <div class="sx">
+                <h1>La storia del nostro giardino</h1>
+            </div>
+        </div>
+    </header>
+    <script src="./script/scriptMenu.js"></script>
+
+    <main>
+        <section class="numero reveal">
+            <h2>I nostri traguardi</h2>
+            <div id="nostriNumeri">
+                <div class="traguardi">
+                    <h3>PIANTE IN SERRA</h3>
+                    <h5>53</h5>
+                </div>
+                <div class="traguardi"> 
+                    <h3>PIANTE ANALIZZATE</h3>
+                    <h5>17</h5>
+                </div>
+                <div class="traguardi">
+                    <h3>ANNI D'ESPERIENZA</h3>
+                    <h5>4</h5>
+                </div>
+            </div>
+        </section>
+
+        <div class="numero reveal" id="storia">
+            <article>
+                <h5>La nostra storia</h5>
+                <p>Tutto è cominciato quando, stanchi di uffici impersonali e 
+                    ambienti senz&apos;anima, abbiamo deciso di cambiare rotta. 
+                    Volevamo circondarci di verde, colore e natura, anche negli 
+                    spazi più semplici. Così, abbiamo trasformato un piccolo angolo 
+                    in una serra viva, un luogo dove coltivare non solo piante, ma 
+                    anche idee, sogni e connessioni.</p>
+                <p>Da quattro anni ci prendiamo cura con dedizione della nostra serra, 
+                    che oggi ospita 53 piante, tutte cresciute a mano, giorno dopo 
+                    giorno. Ogni foglia &egrave; frutto di attenzione, ogni piantina 
+                    una piccola storia che vogliamo condividere.</p>
+                <p>Con lo stesso spirito abbiamo creato il nostro blog, un punto 
+                    d&apos;incontro per chi vuole scoprire, imparare o semplicemente 
+                    lasciarsi ispirare. Al momento parliamo di 17 variet&aacute;
+                    di piante da interno, dalle pi&uacute; semplici alle pi&uacute;
+                    scenografiche, tutte selezionate con cura per essere belle, 
+                    resistenti e facili da amare.</p>
+                <p>Home Garden non &egrave; solo un sito: &egrave; il nostro modo di 
+                    dire che la natura merita spazio, anche tra le pareti di casa. 
+                    Perch&eacute; ogni foglia, ogni pianta, ogni angolo verde &egrave;
+                    un piccolo atto di ribellione contro un mondo troppo grigio. E 
+                    noi, quel mondo, vogliamo colorarlo una pianta alla volta.</p>
+            </article>
+            <img src="css/img/storia2.jpg" alt="mani che travasano una pianta">
+        </div>
+    </main>
+    <footer class="reveal">
+        <h2>Entra a far parte del nostro giardino!</h2>
+        <p>Iscriviti alla nostra newsletter per lasciare un commento, 
+            richiedere assistenza o proporre una nuova pianta da 
+            inserire nel nostro blog</p>
+        <form action="submit.php" method="post">
+            <input type="text" id="nome" name="newsletter" value="Nome e cognome" required>
+            <input type="email" id="email" name="newsletter" value="La tua email" required>
+            <input type="tel" id="phone" name="newsletter" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" value="Il tuo numero di telefono (diviso da dei trattini)">            
+            <textarea id="messaggio" name="newsletter">Scrivi il tuo messaggio oppure la prossima pianta che vorresti vedere nel nostro store</textarea>
+            <div>
+                <button type="submit" class="formButton">Invia</button>
+                <button type="reset" class="formButton">Cancella</button>
+            </div>
+        </form>
+
+        <div class="container">
+            <div>
+                <a href="https://www.google.com/maps/place/Campus+Luigi+Einaudi/@45.0734963,7.6994089,591m/data=!3m2!1e3!4b1!4m6!3m5!1s0x47887281e1311a15:0xd605be48387bc2bd!8m2!3d45.0734963!4d7.6994089!16s%2Fg%2F11fzd0j35b?entry=ttu&g_ep=EgoyMDI1MDQwMS4wIKXMDSoASAFQAw%3D%3D">
+                <h6>Sede</h6>
+                <p>Lungo Dora Siena, 100 - Torino</p>
+                </a>
+            </div>
+            <div>
+                <a href="tel:+393456789012">
+                    <h6>Telefono</h6>
+                    <p>345 678 9012</p>
+                </a>
+            </div>
+            <div>
+                <a href="mailto:info@homegarden.it">
+                    <h6>Email</h6>
+                    <p>info@homegarden.it</p>
+                </a>
+            </div>  
+            <div>
+                <h6>Social</h6>
+                <a href="#">
+                    <img id="instagram" src="css/img/instagram.png" alt="Icona instagram">
+                </a>
+                <a href="#">
+                    <img id="facebook" src="css/img/facebook.png" alt="Icona Facebook">
+                </a>
+                <a href="#">
+                    <img id="tiktok" src="css/img/tiktok.png" alt="Icona Tiktok">
+                </a>
+            </div>
+          </div>
+        <p id="copy">© 2025 - 2025 www.homegarden.com - All Rights Reserved</p>
+    </footer>
+    <script src="./script/scriptFooter.js"></script>    
+    <script src="./script/scriptScroll.js"></script>
+</body>
+</html>
