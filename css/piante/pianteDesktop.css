@@ -1,0 +1,134 @@
+@import url(../base/variabili.css);
+@media (min-width: 1024px) {
+
+
+    .intro {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        margin-right: 0px;
+        padding: 0px;
+        margin-left: 50px;
+        height: 500px;
+        margin-bottom: 0;
+        align-items: center;
+    }
+
+    .intro .testuale {
+        margin: 0px;
+        padding:0;
+        margin-top:0;
+    }
+
+    .intro aside {
+        margin-left: 100px;
+        order: 2;
+        width: 50%;
+        height: 300px;
+        padding: 20px;
+        background-color: var(--secondary-color);
+        border-radius: 20px;
+
+    }
+
+    .intro aside ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .intro aside ul li {
+        width: 100%;
+        margin-right: 30px;
+        background-color: var(--secondary-color);
+    }
+
+    .intro aside ul li:hover {
+        background-color: var(--primary-color);
+        transition: background-color 0.5s;
+    }
+
+    .intro aside h3 {
+        color: var(--new-color);
+        height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .intro .testuale {
+        order:1; 
+    }
+
+    #monstera {
+        margin-top: 50px;
+    }
+
+    .specie {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        height: 500px;
+        align-items: center;
+    }
+
+    .descrizione {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 3fr 0.5fr 1fr;
+        width: 300px;
+        justify-items: center;
+        gap: 0px;
+        background-color: var(--new-color);
+        margin-left: 90px;
+        border: solid 3px var(--secondary-color)
+    }
+
+    .navGallery {
+        border-radius: 15px;
+        width: 35%;
+        margin:0; 
+        order: 5;
+    }
+
+    #text {
+        order: 2; 
+        grid-column: 1/3;
+        color: var(--secondary-color);
+        margin: 0;
+    }
+
+    .big {
+        width: 100%;
+        order: 1;
+        grid-column: 1 / 3;
+        grid-row: 1 / 3;
+        margin-bottom: 20px;
+    }
+
+    .down {
+        order: 4;
+        margin: 0;
+    }
+
+    .up {
+        order: 5;
+        margin: 0;
+
+    }
+
+    
+    #bsx {
+        width: 35%;
+    }
+
+    .testoPiante {
+        width: 90%;
+    }
+
+    .tabella {
+        order:2;
+        margin-top: 60px;
+        font-size: 17px;
+    }
+
+    #bottoneTop #top {
+        width: 2%;
+    }
+}

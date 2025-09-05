@@ -1,0 +1,36 @@
+@import url(../base/variabili.css);
+
+@media (min-width: 601px) {
+    
+    #top {
+        width: 3%;
+    }
+
+    aside {
+        display: grid;
+        grid-template-rows: 1fr 1fr ;
+        height: 120px;
+    }
+
+    aside ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-items: center;
+        
+    }
+
+    aside ul li {
+        width: 100px;
+        height: 20px;
+    }
+
+    .prodotto {
+        margin-top: 150px;
+    }
+
+    .descrizione {
+        width: 50%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
