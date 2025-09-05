@@ -1,0 +1,124 @@
+@import url(variabili.css);
+@media (min-width: 1025px) {
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    header {
+       height: 600px;
+    }
+
+    #BMenu {
+        display: none;
+    }  
+
+    #menu {
+        grid-template-columns: 0.2fr 1fr 5fr;
+        margin: 10px;
+        border-radius: 20px;
+        width: auto;
+        justify-items: right;
+        border: solid 1px var(--secondary-color);
+    }
+
+    #menu img {
+        width: 100%;
+        margin-left: 20px;
+   }
+
+    #menu nav {
+        display:contents;
+    }
+
+    #menu nav ul li {
+        display: inline;  
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #titolo {
+        padding-top: 100px;
+        padding-left: 10px;
+        display: grid;
+        grid-template-columns: 0.8fr 1fr;
+    }
+
+    .sx {
+        text-align: end;
+        padding-right: 100px;
+        border-radius: 20px;
+        margin-top: 150px;
+    }
+
+    footer {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    footer p {
+        margin: 20px;
+    }
+
+    footer form {
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    footer form #nome, #messaggio {
+        width: 100%;
+        margin:0;
+    }
+
+    footer form #email, #phone {
+        width: 45%;
+        margin:0;
+    }
+
+    .container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-items: center;       
+    }
+
+    .container img {
+        width: 25%;
+    }
+
+    .container h6{
+        margin:0; 
+    }
+
+    .container div {
+        padding: 10px;
+    }
+
+    .container div:hover {
+        border: solid 1px var(--new-color);
+        border-radius: 20px;
+        transition: border 0.5s;
+    }
+
+    #copy {
+        width: 100%;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,63 @@
+@import url(../variabili.css);
+
+@media (min-width: 601px) {
+
+    h2 {
+        font-size: 35px;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    #menu {
+        width: 100%;
+        padding: 10px;
+    }
+
+    #menu img {
+        width: 30%;
+    }
+
+    #BMenu img {
+        width: 50%;
+    }
+
+    footer input, textarea {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container div {
+        width: 40%;
+    }
+
+    .container a, p {
+        font-size: 14px;
+    }
+    
+    .container h6 {
+        font-size: 17px;
+        margin-top: 15px;
+    }
+    
+    .container img {
+        width: 13%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+}
